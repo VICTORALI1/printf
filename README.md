@@ -1,1 +1,1 @@
-Catherine and Victor printf readme
+Our first collaborative project. The printf project is a Low-Level Programming project writen in C language involved in using git as a team, variadic functions and finding a good workflow using the printf() function.
