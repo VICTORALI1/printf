@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
 #include <limits.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -116,5 +117,25 @@ unsigned int convert_sbase(buffer_t *output, long int num, char *base,
 unsigned int convert_ubase(buffer_t *output, unsigned long int num, char *base,
 		unsigned char flags, int wid, int prec);
 
+=======
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+int _putchar(char c);
+int print_number(int n);
+int _printf(const char *format, ...);
+int print_octal(unsigned int n);
+int print_unsig(unsigned int n);
+int print_hexaup(unsigned int n);
+int print_hexalow(unsigned int n);
+iint print_bi(unsigned int n);
+
+nt _printstring(char *s);
+int rot13(char *point);
+int print_rev(char *);
+int print_hl(uintptr_t n);
+void _puts(char *str);
+>>>>>>> 2132d8b9892187ed2faddf06bea2c6d671111536
 
 #endif
